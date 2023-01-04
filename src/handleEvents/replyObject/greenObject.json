@@ -1,0 +1,59 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://htmlcolorcodes.com/assets/images/colors/emerald-green-color-solid-background-1920x1080.png",
+            "size": "full",
+            "margin": "none",
+            "position": "relative",
+            "aspectMode": "cover",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "hello",
+              "displayText": "Hello"
+            }
+          },
+          {
+            "type": "image",
+            "url": "https://htmlcolorcodes.com/assets/images/colors/celadon-color-solid-background-1920x1080.png",
+            "size": "full",
+            "margin": "none",
+            "aspectMode": "cover"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://htmlcolorcodes.com/assets/images/colors/bright-green-color-solid-background-1920x1080.png",
+            "size": "full",
+            "margin": "none",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": "https://htmlcolorcodes.com/assets/images/colors/fern-green-color-solid-background-1920x1080.png",
+            "size": "full",
+            "margin": "none",
+            "aspectMode": "cover"
+          }
+        ]
+      }
+    ],
+    "spacing": "none",
+    "margin": "none",
+    "paddingAll": "none"
+  }
+}

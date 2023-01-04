@@ -1,0 +1,119 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "micro",
+      "hero": {
+        "type": "image",
+        "url": "https://htmlcolorcodes.com/assets/images/colors/pastel-pink-color-solid-background-1920x1080.png",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "320:213"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Pastel Pink",
+            "size": "sm",
+            "weight": "bold",
+            "style": "normal"
+          },
+          {
+            "type": "text",
+            "text": "#F8C8DC",
+            "size": "sm"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "Web",
+              "uri": "https://htmlcolorcodes.com/colors/pastel-pink/"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "micro",
+      "hero": {
+        "type": "image",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "320:213",
+        "url": "https://htmlcolorcodes.com/assets/images/colors/pink-color-solid-background-1920x1080.png"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Pink",
+            "weight": "bold",
+            "size": "sm",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "#FFC0CB",
+            "size": "sm"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "Web",
+              "uri": "https://htmlcolorcodes.com/colors/pink/"
+            }
+          }
+        ],
+        "spacing": "sm",
+        "paddingAll": "13px"
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "micro",
+      "hero": {
+        "type": "image",
+        "url": "https://htmlcolorcodes.com/assets/images/colors/dark-pink-color-solid-background-1920x1080.png",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "320:213"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Dark Pink",
+            "weight": "bold",
+            "size": "sm"
+          },
+          {
+            "type": "text",
+            "text": "#AA336A",
+            "size": "sm"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "Web",
+              "uri": "https://htmlcolorcodes.com/colors/dark-pink/"
+            }
+          }
+        ],
+        "spacing": "sm",
+        "paddingAll": "13px"
+      }
+    }
+  ]
+}
