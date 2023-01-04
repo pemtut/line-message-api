@@ -16,10 +16,8 @@
             "position": "relative",
             "aspectMode": "cover",
             "action": {
-              "type": "postback",
-              "label": "action",
-              "data": "hello",
-              "displayText": "Hello"
+              "type": "uri",
+              "uri": "https://htmlcolorcodes.com/colors/emerald-green/"
             }
           },
           {
@@ -27,7 +25,11 @@
             "url": "https://htmlcolorcodes.com/assets/images/colors/celadon-color-solid-background-1920x1080.png",
             "size": "full",
             "margin": "none",
-            "aspectMode": "cover"
+            "aspectMode": "cover",
+            "action": {
+              "type": "uri",
+              "uri": "https://htmlcolorcodes.com/colors/celadon/"
+            }
           }
         ]
       },
@@ -40,14 +42,22 @@
             "url": "https://htmlcolorcodes.com/assets/images/colors/bright-green-color-solid-background-1920x1080.png",
             "size": "full",
             "margin": "none",
-            "aspectMode": "cover"
+            "aspectMode": "cover",
+            "action": {
+              "type": "uri",
+              "uri": "https://htmlcolorcodes.com/colors/bright-green/"
+            }
           },
           {
             "type": "image",
             "url": "https://htmlcolorcodes.com/assets/images/colors/fern-green-color-solid-background-1920x1080.png",
             "size": "full",
             "margin": "none",
-            "aspectMode": "cover"
+            "aspectMode": "cover",
+            "action": {
+              "type": "uri",
+              "uri": "https://htmlcolorcodes.com/colors/fern-green/"
+            }
           }
         ]
       }
