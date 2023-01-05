@@ -1,0 +1,31 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "image",
+        "url": "https://htmlcolorcodes.com/assets/images/colors/bright-purple-color-solid-background-1920x1080.png",
+        "size": "full",
+        "aspectMode": "cover"
+      },
+      {
+        "type": "text",
+        "text": "LIFF",
+        "position": "absolute",
+        "size": "xxl",
+        "weight": "bold",
+        "offsetTop": "125px",
+        "offsetStart": "125px",
+        "color": "#000000",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "https://liff.line.me/1657789599-DvBJw88v"
+        }
+      }
+    ],
+    "paddingAll": "none"
+  }
+}

@@ -2,6 +2,8 @@ const line = require("@line/bot-sdk");
 const lineConfig = require("../../src/configs/line.config");
 const pinkObject = require("./replyObject/pinkObject.json");
 const greenObject = require("./replyObject/greenObject.json");
+const blueObject = require("./replyObject/blueObject.json");
+const purpleObject = require("./replyObject/purpleObject.json");
 const client = new line.Client(lineConfig);
 
 function pinkEvent(event) {
@@ -22,15 +24,17 @@ function greenEvent(event) {
 
 function blueEvent(event) {
   return client.replyMessage(event.replyToken, {
-    type: "text",
-    text: "blue",
+    type: "flex",
+    altText: "This is a blue",
+    contents: blueObject,
   });
 }
 
 function purpleEvent(event) {
   return client.replyMessage(event.replyToken, {
-    type: "text",
-    text: "purple",
+    type: "flex",
+    altText: "This is a purple",
+    contents: purpleObject,
   });
 }
 

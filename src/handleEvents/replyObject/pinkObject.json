@@ -35,7 +35,9 @@
               "uri": "https://htmlcolorcodes.com/colors/pastel-pink/"
             }
           }
-        ]
+        ],
+        "paddingBottom": "none",
+        "paddingAll": "13px"
       }
     },
     {
@@ -74,7 +76,8 @@
           }
         ],
         "spacing": "sm",
-        "paddingAll": "13px"
+        "paddingAll": "13px",
+        "paddingBottom": "none"
       }
     },
     {
@@ -112,7 +115,8 @@
           }
         ],
         "spacing": "sm",
-        "paddingAll": "13px"
+        "paddingAll": "13px",
+        "paddingBottom": "none"
       }
     }
   ]

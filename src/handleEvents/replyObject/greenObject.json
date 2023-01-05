@@ -16,8 +16,9 @@
             "position": "relative",
             "aspectMode": "cover",
             "action": {
-              "type": "uri",
-              "uri": "https://htmlcolorcodes.com/colors/emerald-green/"
+              "type": "message",
+              "label": "action",
+              "text": "ซ้ายบน"
             }
           },
           {
@@ -27,9 +28,28 @@
             "margin": "none",
             "aspectMode": "cover",
             "action": {
-              "type": "uri",
-              "uri": "https://htmlcolorcodes.com/colors/celadon/"
+              "type": "message",
+              "label": "action",
+              "text": "ขวาบน"
             }
+          },
+          {
+            "type": "text",
+            "text": "Text",
+            "position": "absolute",
+            "size": "xxl",
+            "offsetTop": "55px",
+            "offsetStart": "48px",
+            "color": "#000000"
+          },
+          {
+            "type": "text",
+            "text": "Text",
+            "position": "absolute",
+            "size": "xxl",
+            "offsetTop": "55px",
+            "offsetStart": "195px",
+            "color": "#000000"
           }
         ]
       },
@@ -44,8 +64,9 @@
             "margin": "none",
             "aspectMode": "cover",
             "action": {
-              "type": "uri",
-              "uri": "https://htmlcolorcodes.com/colors/bright-green/"
+              "type": "message",
+              "label": "action",
+              "text": "ซ้ายล่าง"
             }
           },
           {
@@ -55,9 +76,28 @@
             "margin": "none",
             "aspectMode": "cover",
             "action": {
-              "type": "uri",
-              "uri": "https://htmlcolorcodes.com/colors/fern-green/"
+              "type": "message",
+              "label": "action",
+              "text": "ขวาล่าง"
             }
+          },
+          {
+            "type": "text",
+            "text": "Text",
+            "position": "absolute",
+            "size": "xxl",
+            "offsetTop": "55px",
+            "offsetStart": "48px",
+            "color": "#000000"
+          },
+          {
+            "type": "text",
+            "text": "Text",
+            "position": "absolute",
+            "size": "xxl",
+            "offsetTop": "55px",
+            "offsetStart": "195px",
+            "color": "#000000"
           }
         ]
       }
